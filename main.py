@@ -27,13 +27,13 @@ def toggle_automation():
 
 # Create a listener for the hotkey
 hotkey_listener = keyboard.GlobalHotKeys({
-    'o': toggle_automation
+    'k': toggle_automation
 })
 
 # Start listening for the hotkey
 hotkey_listener.start()
 
-print("Press the 'o' key to toggle automation on and off.")
+print("Press the 'k' key to toggle automation on and off.")
 
 # Loop through the coordinates and actions
 while True:
